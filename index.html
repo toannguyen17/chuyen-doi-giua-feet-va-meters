@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chuyển đổi giữa feet và meters</title>
+</head>
+<body>
+<p>Chuyển đổi giữa feet và meters</p>
+<button onclick="feetToMeters()">Feet sang Meters</button>
+<button onclick="metersToFeet()">Meters sang Feet</button>
+<script type="text/javascript">
+	function feetToMeters() {
+		let enterNumber = Number(prompt('Enter a number'));
+		let result = 0.305 * enterNumber;
+		alert(enterNumber+' feet = '+result+' meters');
+	}
+	function metersToFeet() {
+		let enterNumber = Number(prompt('Enter a number'));
+		let result = 3.279 * enterNumber;
+		alert(enterNumber+' meters = '+result+' feet');
+	}
+</script>
+</body>
+</html>
